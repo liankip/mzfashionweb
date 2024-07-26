@@ -5,7 +5,6 @@ import {clientConfig, serverConfig} from "@/config";
 import HomePage from "./HomePage";
 import {Metadata} from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
-export const dynamic = 'force-dynamic';
 
 export const metadata: Metadata = {
     title:
